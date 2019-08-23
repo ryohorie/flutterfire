@@ -1,4 +1,4 @@
-library flutter_firebase_ui;
+library firebase_ui;
 
 import 'package:flutter/material.dart';
 
