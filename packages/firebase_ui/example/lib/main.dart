@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase_ui/flutter_firebase_ui.dart';
-import 'package:flutter_firebase_ui/l10n/localization.dart';
+import 'package:firebase_ui/firebase_ui.dart';
+import 'package:firebase_ui/l10n/localization.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() => runApp(new MyApp());

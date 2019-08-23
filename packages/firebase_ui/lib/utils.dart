@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_facebook_login/flutter_facebook_login.dart';
-import 'package:flutter_firebase_ui/l10n/localization.dart';
+import 'package:firebase_ui/l10n/localization.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:meta/meta.dart';
 
@@ -66,7 +66,7 @@ class ButtonDescription extends StatelessWidget {
               new Container(
                   padding: const EdgeInsets.fromLTRB(16.0, 16.0, 32.0, 16.0),
                   child: new Image.asset('assets/$logo',
-                      package: 'flutter_firebase_ui')),
+                      package: 'firebase_ui')),
               new Expanded(
                 child: new Text(
                   label,
