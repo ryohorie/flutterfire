@@ -11,6 +11,7 @@
 Before you create this PR confirm that it meets all requirements listed below by checking the relevant checkboxes (`[x]`). This will ensure a smooth and quick review process.
 
 - [ ] I read the [Contributor Guide] and followed the process outlined there for submitting PRs.
+- [ ] If the pull request affects only one plugin, the PR title starts with the name of the plugin in brackets (e.g. [cloud_firestore])
 - [ ] My PR includes unit or integration tests for *all* changed/updated/fixed behaviors (See [Contributor Guide]).
 - [ ] All existing and new tests are passing.
 - [ ] I updated/added relevant documentation (doc comments with `///`).
@@ -31,7 +32,7 @@ Does your PR require plugin users to manually update their apps to accommodate y
 
 <!-- Links -->
 [issue database]: https://github.com/flutter/flutter/issues
-[Contributor Guide]: https://github.com/flutter/plugins/blob/master/CONTRIBUTING.md
+[Contributor Guide]: https://github.com/FirebaseExtended/flutterfire/blob/master/CONTRIBUTING.md
 [Flutter Style Guide]: https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo
 [pub versioning philosophy]: https://www.dartlang.org/tools/pub/versioning
 [CLA]: https://cla.developers.google.com/

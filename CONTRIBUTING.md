@@ -1,11 +1,10 @@
 # Contributing to FlutterFire
 
-[![Build Status](https://api.cirrus-ci.com/github/flutter/plugins.svg)](https://cirrus-ci.com/github/FirebaseExtended/flutterfire/master)
+[![Build Status](https://api.cirrus-ci.com/github/FirebaseExtended/flutterfire.svg)](https://cirrus-ci.com/github/FirebaseExtended/flutterfire/master)
 
 _See also: [Flutter's code of conduct](https://flutter.io/design-principles/#code-of-conduct)_
 
 ## Things you will need
-
 
  * Linux, Mac OS X, or Windows.
  * git (used for source version control).
@@ -22,9 +21,9 @@ _See also: [Flutter's code of conduct](https://flutter.io/design-principles/#cod
  * If you haven't configured your machine with an SSH key that's known to github, then
    follow [GitHub's directions](https://help.github.com/articles/generating-ssh-keys/)
    to generate an SSH key.
- * `git clone git@github.com:<your_name_here>/plugins.git`
+ * `git clone git@github.com:<your_name_here>/flutterfire.git`
  * `cd plugins`
- * `git remote add upstream git@github.com:flutter/plugins.git` (So that you
+ * `git remote add upstream git@github.com:FirebaseExtended/flutterfire.git` (So that you
    fetch from the master repository, not your clone, when running `git fetch`
    et al.)
 
@@ -88,6 +87,9 @@ To send us a pull request:
   "Compare & pull request" button
 
 Please make sure all your checkins have detailed commit messages explaining the patch.
+
+For pull requests that affect only one Flutterfire plugin, use a title that starts
+with the name of the plugin in brackets (e.g. [cloud_firestore]).
 
 Plugins tests are run automatically on contributions using Cirrus CI. However, due to
 cost constraints, pull requests from non-committers may not run all the tests

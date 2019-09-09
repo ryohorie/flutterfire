@@ -1,3 +1,17 @@
+## 0.9.0+7
+
+* Update Android gradle plugin, gradle, and Admob versions.
+* Improvements to the Android implementation, fixing warnings about a possible null pointer exception.
+* Fixed an issue where an advertisement could incorrectly remain displayed when transitioning to another screen.
+
+## 0.9.0+6
+
+* Remove duplicate example from documentation.
+
+## 0.9.0+5
+
+* Update documentation to reflect new repository location.
+
 ## 0.9.0+4
 
 * Add the ability to horizontally adjust the ads banner location by specifying a pixel offset from the centre.

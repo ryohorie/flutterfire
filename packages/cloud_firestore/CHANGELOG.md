@@ -1,3 +1,17 @@
+## 0.12.9+3
+
+* Updated error handling on Android for transactions to prevent crashes.
+
+## 0.12.9+2
+
+* Fix flaky integration test for `includeMetadataChanges`.
+
+## 0.12.9+1
+
+* Update documentation to reflect new repository location.
+* Update unit tests to call `TestWidgetsFlutterBinding.ensureInitialized`.
+* Remove executable bit on LICENSE file.
+
 ## 0.12.9
 
 * New optional `includeMetadataChanges` parameter added to `DocumentReference.snapshots()`

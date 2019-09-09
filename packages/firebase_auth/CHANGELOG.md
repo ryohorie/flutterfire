@@ -1,3 +1,18 @@
+## 0.14.0+5
+
+* On iOS, `fetchSignInMethodsForEmail` now returns an empty list when the email
+  cannot be found, matching the Android behavior.
+
+## 0.14.0+4
+
+* Fixed "Register a user" example code snippet in README.md.
+
+## 0.14.0+3
+
+* Update documentation to reflect new repository location.
+* Update unit tests to call `TestWidgetsFlutterBinding.ensureInitialized`.
+* Remove executable bit on LICENSE file.
+
 ## 0.14.0+2
 
 * Reduce compiler warnings on iOS port by replacing `int` with `long` backing in returned timestamps.
